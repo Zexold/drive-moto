@@ -1,5 +1,5 @@
 import React, { createContext, useReducer, useState } from 'react'
-import { reducer } from '../reducer/STORE.JS';
+import { reducer } from '../reducer/store.js';
 import { ADD_ONE, ADD_TO_CART, ADD_TO_LIKE, REMOVE_FROM_CART, REMOVE_FROM_LIKE, REMOVE_ONE } from '../reducer/type';
 import { data } from 'autoprefixer';
 import { useEffect } from 'react';
